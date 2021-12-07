@@ -1,0 +1,21 @@
+
+            
+         <?php
+           function msg(){
+            echo"Olá, Mundo!";
+        }
+            
+        function nome(){
+            echo"<br>Ricardo João Massungui";
+        }
+                
+        function n($n){
+            echo"<br>$n";
+        }
+            
+           
+            
+                
+        
+        ?> 
+    

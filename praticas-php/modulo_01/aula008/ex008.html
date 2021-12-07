@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logotipo-html5.jfif" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        body{
+            background-color: #f6813e;
+        }
+        p.tela{
+            background-color: #f6813e; 
+            color: white; 
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+    </style>
+    <title>Multi-Operacionador-HTML</title>
+</head>
+<body>
+    
+    <div>
+        <p style="background-color: #ffffff;"><img src="logotipo-html5.jfif" alt="logotipo-html5"></p>
+        <strong><p class="tela" >Tela de Exibição HTML5</p></strong>
+        <form method="GET" action="ex008.php">
+            Número: <input type="number" name="n" required><br><br>
+            <fieldset><legend>Operação</legend>
+                <input type="radio" name="oper" id="dobro" checked value="1">
+                <label for="dobro">Dobro</label>
+                <input type="radio" name="oper" id="cubo" value="2">
+                <label for="cubo">Cubo</label>
+                <input type="radio" name="oper" id="raizq" value="3">
+                <label for="raizq">Raiz quadrada</label>
+                <!--<input type="radio" name="oper" id="raizc" value="4">
+                <label for="raizc">Raiz cúbica</label>-->
+                <input type="radio" name="oper" id="par" value="4">
+                <label for="par">Par/Ìmpar</label>
+                
+
+            </fieldset>
+             
+            <p><input type="submit" value="verificar" style="background-color: #f6813e; color:white;"></p>   
+        </form>
+    </div>
+
+    <em><p style="color: white; font-size: small;">&copy; 2021 CursoemVideo-EasySoft, by Ricardo Massungui.</p></em>
+</body>
+</html>   
+     
+         
+
+       

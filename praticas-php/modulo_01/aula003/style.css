@@ -1,0 +1,27 @@
+body{
+    background-color:#465489;
+    
+}
+div{
+    text-align: center;
+    padding: 8px;
+}
+img{
+    border-radius: 10px;
+    margin-top: 40px;  
+}
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 30px;
+    min-width: 320px;
+    max-width: 500px;
+    height: 700px;
+    margin: auto;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.360);
+    margin-top: 50px;
+}
+div#tela{
+    background-color: #777bb3;
+
+}
