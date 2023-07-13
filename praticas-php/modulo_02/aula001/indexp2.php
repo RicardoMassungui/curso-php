@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        require_once 'Aprender.php';
+        require_once 'Aprender.class.php';
         $f1 = new Aprender;
         $f1->ler = true;
         $f1->escrever = false;

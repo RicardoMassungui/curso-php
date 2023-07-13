@@ -2,14 +2,16 @@
 
 class Caneta{
     private $modelo;
-    private $cor;
-    private $ponta;
-    private $tampada;
+    protected $cor;
+    public $ponta;
+    protected $tampada;
+ 
     
     public function __construct($m, $c, $p){//metódo construtor = Caneta(), nome da classe atual.
-        $this->cor = $c;
-        /*$this->ponta = $p;
+        /*$this->cor = $c;
+        $this->ponta = $p;
         $this->modelo = $m;*/
+
         $this->setponta($p);
         $this->setmodelo($m);
         $this->tampar();

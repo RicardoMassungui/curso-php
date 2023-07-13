@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(202, 198, 198, 0.507);    
+}
+h2{
+    text-align: center;
+}
+
+.aviso{
+
+    width: 100%;
+    height: 50px;
+    margin: 0px auto 0px auto;
+    
+}
+h4{
+    text-align: center;
+    line-height: 50px;
+
+}
+.aviso > #alert_s{
+    color: white;
+    background-color: rgba(28, 244, 93, 0.865);
+}
+.aviso > #alert_e{
+    color: white;
+    background-color: rgba(251, 26, 26, 0.824);
+}
+#msgbd > #alert_bdv{
+    color: white;
+    background-color: rgba(251, 26, 26, 0.824);
+    
+    text-align: center;
+}
+#msgbd{
+    margin: auto;
+    width: 600px;
+}
+label,input{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    font-size: 13pt;
+    width: 100%;
+    
+}
+#inf{
+    text-align: center;
+}
+#inf:active{
+    color:black;
+}
+.lb{
+    font-weight: bolder;
+}
+
+form{
+    width: 330px;
+    background-color: white;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.244);
+}
+input[type="submit"]{
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+#cap{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 5px 5px 0px 0px;
+}
+#esquerda{
+   width: 360px;
+    float:left;
+
+    
+}
+#direita{
+    width: 770px;
+    float: right;
+
+    
+} 
+table{
+    background-color: white;
+    width: 90%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.244);
+}
+
+tr{
+    line-height: 30px;
+    
+}
+tr#titulo{
+    text-align: center;
+    font-weight: bold;
+    background-color: lightslategrey;
+    color: white;
+  
+}
+td{
+    
+    border-collapse: collapse;
+    border:  solid 1px black;
+    text-align: center;
+
+    
+}
+a{
+    background-color: lightslategrey;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+}

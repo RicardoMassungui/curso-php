@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        require_once 'Computador.php';
+        require_once 'Computador.class.php';
         $pc = new Computador;
         $pc->monitor = true;
         $pc->caixa = false;
@@ -15,7 +15,7 @@
         $pc->mouse = false;
         $pc->so = false; 
         $pc->t_so = "M-W10";
-        $pc->cor ="petra";
+        $pc->cor ="preta";
         $pc->pc_so();
         $pc->pc_ligado_desligado();
         $pc->pc_digita_clica();
